@@ -17,15 +17,13 @@ const About = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full bg-primary-foreground/10 text-primary-foreground text-sm font-medium mb-4">
-            About SolarFlow
+            About Katsikas-IKE
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
             Powering a Greener Tomorrow
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Since 2010, SolarFlow has been at the forefront of the renewable energy 
-            revolution. We're committed to making solar power accessible, affordable, 
-            and reliable for every homeowner and business.
+            Since 2021, Katsikas-IKE has been at the forefront of the renewable energy revolution.
           </p>
         </div>
 

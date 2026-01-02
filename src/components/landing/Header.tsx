@@ -6,10 +6,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Services", href: "#services" },
-    { name: "About", href: "#about" },
-    { name: "Benefits", href: "#benefits" },
-    { name: "Contact", href: "#contact" },
+    // { name: "Services", href: "#services" },
+    // { name: "About", href: "#about" },
+    // { name: "Benefits", href: "#benefits" },
+    // { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -21,7 +21,7 @@ const Header = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-hero flex items-center justify-center shadow-soft group-hover:shadow-card transition-shadow duration-300">
               <Sun className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground">SolarFlow</span>
+            <span className="text-xl font-bold text-foreground">Katsikas-IKE</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -38,12 +38,12 @@ const Header = () => {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* <div className="hidden md:flex items-center gap-3">
             <Button variant="ghost" size="sm">
               Log In
             </Button>
             <Button size="sm">Get Quote</Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button

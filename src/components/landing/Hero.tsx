@@ -28,19 +28,19 @@ const Hero = () => {
 
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-primary-foreground leading-tight mb-6 animate-fade-up opacity-0 delay-100">
-            Power Your Home
+            Power Your Future
             <br />
             <span className="text-accent">With Sunshine</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-xl animate-fade-up opacity-0 delay-200">
+          {/* <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-xl animate-fade-up opacity-0 delay-200">
             Transform your energy bills into savings. Our solar solutions deliver 
             reliable, eco-friendly power for your home and business.
-          </p>
+          </p> */}
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-up opacity-0 delay-300">
+          {/* <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-up opacity-0 delay-300">
             <Button variant="hero" size="lg" className="group">
               Get Free Estimate
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -48,10 +48,10 @@ const Hero = () => {
             <Button variant="heroOutline" size="lg">
               Learn More
             </Button>
-          </div>
+          </div> */}
 
           {/* Trust Indicators */}
-          <div className="flex flex-wrap gap-6 animate-fade-up opacity-0 delay-400">
+          {/* <div className="flex flex-wrap gap-6 animate-fade-up opacity-0 delay-400">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 backdrop-blur-sm flex items-center justify-center">
                 <Zap className="w-6 h-6 text-accent" />
@@ -79,7 +79,7 @@ const Hero = () => {
                 <p className="text-sm text-primary-foreground/70">kWh Generated</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

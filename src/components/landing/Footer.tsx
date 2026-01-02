@@ -3,74 +3,75 @@ import { Sun, Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const footerLinks = {
-    services: [
-      { name: "Residential Solar", href: "#" },
-      { name: "Commercial Solar", href: "#" },
-      { name: "Battery Storage", href: "#" },
-      { name: "Maintenance", href: "#" },
-    ],
-    company: [
-      { name: "About Us", href: "#about" },
-      { name: "Careers", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Press", href: "#" },
-    ],
-    support: [
-      { name: "Contact", href: "#contact" },
-      { name: "FAQ", href: "#" },
-      { name: "Warranty", href: "#" },
-      { name: "Financing", href: "#" },
-    ],
-  };
+  // const footerLinks = {
+    // services: [
+    //   { name: "Residential Solar", href: "#" },
+    //   { name: "Commercial Solar", href: "#" },
+    //   { name: "Battery Storage", href: "#" },
+    //   { name: "Maintenance", href: "#" },
+    // ],
+    // company: [
+    //   { name: "About Us", href: "#about" },
+    //   { name: "Careers", href: "#" },
+    //   { name: "Blog", href: "#" },
+    //   { name: "Press", href: "#" },
+    // ],
+    // support: [
+    //   { name: "Contact", href: "#contact" },
+    //   { name: "FAQ", href: "#" },
+    //   { name: "Warranty", href: "#" },
+    //   { name: "Financing", href: "#" },
+    // ],
+  // };
 
-  const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-  ];
+  // const socialLinks = [
+    // { icon: Facebook, href: "#", label: "Facebook" },
+    // { icon: Twitter, href: "#", label: "Twitter" },
+    // { icon: Linkedin, href: "#", label: "LinkedIn" },
+    // { icon: Instagram, href: "#", label: "Instagram" },
+  // ];
 
   return (
-    <footer className="bg-foreground text-background pt-16 pb-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+    <footer className="bg-foreground text-background pt-8 pb-1">
+      <div className="container mx-auto px-1">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-12"> */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4">
           {/* Brand Column */}
-          <div className="lg:col-span-2">
-            <a href="#" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-hero flex items-center justify-center">
+          <div className="lg:col-span-2"> {/* lg:col-span-2 */}
+            <a href="#" className="flex items-center gap-2 mb-2">
+              <div className="w-10 h-10 rounded-xl bg-gradient-hero flex">
                 <Sun className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">SolarFlow</span>
+              <span className="text-xl font-bold">Katsikas-IKE</span>
             </a>
-            <p className="text-background/70 mb-6 max-w-sm">
+            {/* <p className="text-background/70 mb-6 max-w-sm">
               Empowering homes and businesses with clean, renewable solar energy 
               since 2010. Your trusted partner for a sustainable future.
-            </p>
+            </p> */}
             <div className="space-y-3">
               <a
-                href="mailto:hello@solarflow.com"
-                className="flex items-center gap-3 text-background/70 hover:text-background transition-colors"
+                href="mailto:katsikas.gp@gmail.com"
+                className="flex items-center gap-2 text-background/70 hover:text-background transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                hello@solarflow.com
+                katsikas.gp@gmail.com
               </a>
-              <a
+              {/* <a
                 href="tel:+15551234567"
                 className="flex items-center gap-3 text-background/70 hover:text-background transition-colors"
               >
                 <Phone className="w-4 h-4" />
                 (555) 123-4567
-              </a>
-              <div className="flex items-center gap-3 text-background/70">
+              </a> */}
+              <div className="flex items-center gap-2 text-background/70">
                 <MapPin className="w-4 h-4" />
-                123 Solar Street, Sunnyville, CA 90210
+                Chaeronea, 32150 Livadia, Viotia, Greece
               </div>
             </div>
           </div>
 
           {/* Links Columns */}
-          <div>
+          {/* <div>
             <h4 className="font-semibold text-lg mb-4">Services</h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
@@ -116,17 +117,17 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row justify-center items-center gap-2">
           <p className="text-background/60 text-sm">
-            © {currentYear} SolarFlow Energy. All rights reserved.
+            © {currentYear} Katsikas-IKE. All rights reserved.
           </p>
 
           {/* Social Links */}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             {socialLinks.map((social) => (
               <a
                 key={social.label}
@@ -137,7 +138,7 @@ const Footer = () => {
                 <social.icon className="w-4 h-4" />
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
