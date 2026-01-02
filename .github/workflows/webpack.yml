@@ -26,4 +26,3 @@ jobs:
       run: |
         npm install --yes
         npm run build
-        npm run preview
