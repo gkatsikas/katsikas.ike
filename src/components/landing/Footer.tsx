@@ -1,4 +1,4 @@
-import { Sun, Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Sun, Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin, IdCard } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -49,6 +49,13 @@ const Footer = () => {
               since 2010. Your trusted partner for a sustainable future.
             </p> */}
             <div className="space-y-3">
+              <a
+                href="https://publicity.businessportal.gr/company/162174917000"
+                className="flex items-center gap-2 text-background/70"
+              >
+                <IdCard className="w-4 h-4" />
+                GEMI ID: 162174917000
+              </a>
               <a
                 href="mailto:katsikas.gp@gmail.com"
                 className="flex items-center gap-2 text-background/70 hover:text-background transition-colors"

@@ -23,7 +23,7 @@ const About = () => {
             Powering a Greener Tomorrow
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Since 2021, Katsikas-IKE has been at the forefront of the renewable energy revolution.
+            Since 2022, Katsikas-IKE has been at the forefront of the renewable energy revolution.
           </p>
         </div>
 
